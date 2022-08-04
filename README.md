@@ -27,3 +27,5 @@ Ou
 ```
 npm run build && npm start
 ```
+##
+Inspirado no projeto CarShop que desenvolvi enquanto estudava na @betrybe
