@@ -27,5 +27,14 @@ Ou
 ```
 npm run build && npm start
 ```
+### Rotas
+```
+http://localhost:PORT
+
+/cars             -POST, GET
+/cars/:id         -GET, PUT, DELETE
+/motorcycles      -POST, GET
+/motorcycles/:id  -GET, PUT, DELETE
+```
 ##
 Inspirado no projeto CarShop que desenvolvi enquanto estudava na @betrybe
