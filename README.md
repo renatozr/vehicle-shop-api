@@ -1,5 +1,5 @@
 # vehicle-shop-crud-api
-<p>API com CRUD para gerenciar uma concessionária de veículos, usando o mongoose como ODM para o MongoDB. <br>
+<p>REST API que gerencia dados de uma concessionária de veículos. <br>
 Fazendo esse projeto melhorei minhas habilidades com o TypeScript e POO aplicando os princípios SOLID.
 
 ## Rodando na sua maquina
