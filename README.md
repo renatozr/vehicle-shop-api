@@ -1,5 +1,5 @@
 # vehicle-shop-api
-<p>REST API que gerencia dados de uma concessionária. <br>
+<p>REST API que gerencia os dados dos veículos de uma concessionária. <br>
 Fazendo esse projeto melhorei minhas habilidades com o TypeScript e POO aplicando os princípios SOLID.
 
 ## Rodando na sua maquina
