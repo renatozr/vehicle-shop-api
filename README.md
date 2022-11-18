@@ -1,4 +1,4 @@
-# vehicle-shop-crud-api
+# vehicle-shop-api
 <p>REST API que gerencia dados de uma concessionária de veículos. <br>
 Fazendo esse projeto melhorei minhas habilidades com o TypeScript e POO aplicando os princípios SOLID.
 
