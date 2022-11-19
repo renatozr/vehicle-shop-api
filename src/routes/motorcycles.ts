@@ -51,7 +51,7 @@ const router = Router();
  *         color: blue
  *         status: true
  *         buyValue: 45990
- *         category: street
+ *         category: Street
  *         engineCapacity: 890
  *     NewMotorcycle:
  *       type: object
@@ -90,7 +90,7 @@ const router = Router();
  *         color: blue
  *         status: true
  *         buyValue: 45990
- *         category: street
+ *         category: Street
  *         engineCapacity: 890
  */
 
@@ -105,7 +105,7 @@ const router = Router();
  * @swagger
  * /motorcycles:
  *   get:
- *     summary: Retorna lista de todas motos
+ *     summary: Retorna lista com todas as motos
  *     tags: [Motorcycles]
  *     responses:
  *       200:
@@ -117,7 +117,7 @@ const router = Router();
  *               items:
  *                 $ref: '#/components/schemas/Motorcycle'
  *   post:
- *     summary: Cria nova moto
+ *     summary: Cria uma nova moto
  *     tags: [Motorcycles]
  *     requestBody:
  *       required: true
@@ -127,7 +127,7 @@ const router = Router();
  *             $ref: '#/components/schemas/NewMotorcycle'
  *     responses:
  *       201:
- *         description: Moto criado com sucesso
+ *         description: Moto criada com sucesso
  *         content:
  *           application/json:
  *             schema:

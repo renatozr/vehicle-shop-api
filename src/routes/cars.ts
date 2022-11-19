@@ -105,7 +105,7 @@ const router = Router();
  * @swagger
  * /cars:
  *   get:
- *     summary: Retorna lista de todos carros
+ *     summary: Retorna lista com todos os carros
  *     tags: [Cars]
  *     responses:
  *       200:
@@ -117,7 +117,7 @@ const router = Router();
  *               items:
  *                 $ref: '#/components/schemas/Car'
  *   post:
- *     summary: Cria novo carro
+ *     summary: Cria um novo carro
  *     tags: [Cars]
  *     requestBody:
  *       required: true
