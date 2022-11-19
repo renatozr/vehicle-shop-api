@@ -8,10 +8,10 @@ import specs from './swagger';
 
 const app = express();
 
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
 app.use(express.json());
 app.use(cors());
 app.use(routes);
 app.use(errorMiddleware);
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
 
 export default app;
