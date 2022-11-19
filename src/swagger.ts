@@ -6,7 +6,8 @@ const options: swaggerJsDoc.Options = {
     info: {
       title: 'Vehicle Shop API',
       version: '1.0.0',
-      description: 'REST API que gerencia dados de uma concessionária.',
+      description: `REST API que gerencia os dados dos veículos de uma 
+concessionária.`,
     },
     servers: [
       {
