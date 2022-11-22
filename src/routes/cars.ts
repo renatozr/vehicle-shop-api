@@ -47,7 +47,7 @@ const router = Router();
  *       example:
  *         _id: 62eacce38ed467e904f030e0
  *         model: Ferrari Maranello
- *         year: 1963
+ *         year: 2003
  *         color: red
  *         status: true
  *         buyValue: 3500000
@@ -86,7 +86,7 @@ const router = Router();
  *           description: Quantidade de assentos do carro
  *       example:
  *         model: Ferrari Maranello
- *         year: 1963
+ *         year: 2003
  *         color: red
  *         status: true
  *         buyValue: 3500000
