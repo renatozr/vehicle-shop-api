@@ -11,7 +11,7 @@ concessionária.`,
     },
     servers: [
       {
-        url: 'http://localhost:3001',
+        url: 'https://vehicle-shop-api.onrender.com',
       },
     ],
   },
