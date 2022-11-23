@@ -9,11 +9,11 @@ import specs from './swagger';
 
 const app = express();
 
-app.use(bodyParser.json({ limit: "30mb" }));
-app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 app.use(routes);
+app.use('/docs', swaggerUi.serve, swaggerUi.setup(specs));
 app.use(errorMiddleware);
-app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
 
 export default app;
