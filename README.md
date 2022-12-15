@@ -1,7 +1,10 @@
 # Vehicle Shop API
 <p>REST API que gerencia os dados dos veículos de uma concessionária. <br>
 Fazendo esse projeto melhorei minhas habilidades com o TypeScript e POO aplicando os princípios SOLID.</p>
-Demo: https://vehicle-shop-api.onrender.com/docs
+<p>
+  Demo: https://vehicle-shop-api.onrender.com/docs
+  Pode haver delay pois o servidor está hospedado nos EUA
+</p>
 
 ## Rodando na sua maquina
 ### Clone o projeto
