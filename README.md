@@ -27,10 +27,6 @@ Cerifique-se que o MongoDB está rodando na porta inserida na URI, no caso acima
 ```
 npm run dev
 ```
-Ou
-```
-npm run build && npm start
-```
 ### Rotas
 ```
 http://localhost:PORT
